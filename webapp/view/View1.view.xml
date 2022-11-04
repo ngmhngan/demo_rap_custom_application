@@ -1,0 +1,17 @@
+<mvc:View controllerName="demorapcustomapplication.demorapcustomapplication.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}" showNavButton="true">
+    <content>
+        <Button
+        text="Say Hello"
+        press=".onShowHello"/>
+        <List items="{/ZCV_CDS_RAP_DEMO}">
+            <items>
+                <StandardListItem 
+                title="{Firstname}" />
+            </items>
+        </List>
+    </content>
+    </Page>
+</mvc:View>
